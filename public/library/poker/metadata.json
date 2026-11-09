@@ -1,0 +1,47 @@
+{
+  "id": "poker",
+  "filename": "The_Mental_Game_of_Poker_ Jared_Tendler.pdf",
+  "title": "Психология покера",
+  "author": "Джаред Тендлер и Барри Картер",
+  "category": "Психология",
+  "pages": 198,
+  "characters": 418967,
+  "words": 68326,
+  "kind": "book",
+  "sourceLabel": "Книга · текстовый PDF",
+  "ocr_pages": 1,
+  "images": 19,
+  "tables": 0,
+  "toc_entries": 188,
+  "flagged_pages": [],
+  "empty_pages": [
+    4
+  ],
+  "errors": [],
+  "sha256": "37616de2472bb49b42cbe1ff9303632e83b38033bf7e32c6cf8e343bdfbb0d6b",
+  "pdf_metadata": {
+    "format": "PDF 1.3",
+    "title": "The Mental Game of Poker: Proven Strategies for Improving Tilt Control, Confidence, Motivation, Coping With Variance, and More.",
+    "author": "Jared Tendler & Barry Carter",
+    "subject": "",
+    "keywords": "",
+    "creator": "calibre 0.9.32 [http://calibre-ebook.com]",
+    "producer": "calibre 0.9.32 [http://calibre-ebook.com]",
+    "creationDate": "D:20130527134601+00'00'",
+    "modDate": "D:20161101073152+02'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "extraction_complete": true,
+  "limitations": [
+    "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+    "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+    "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+  ],
+  "low_text_pages": [
+    4,
+    5
+  ],
+  "ocr_attempted_pages": 1,
+  "duplicate_text_pages": []
+}

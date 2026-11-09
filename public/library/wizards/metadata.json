@@ -1,0 +1,42 @@
+{
+  "id": "wizards",
+  "filename": "The_New_Market_Wizards.pdf",
+  "title": "Новые маги рынка",
+  "author": "Джек Швагер",
+  "category": "Торговый процесс",
+  "pages": 190,
+  "characters": 958313,
+  "words": 162590,
+  "kind": "book",
+  "sourceLabel": "Книга · текстовый PDF",
+  "ocr_pages": 0,
+  "images": 0,
+  "tables": 0,
+  "toc_entries": 0,
+  "flagged_pages": [],
+  "empty_pages": [],
+  "errors": [],
+  "sha256": "b16bf3f7cf34892095035ed36d57f8fb2ab3a5624308450e2fcaddd56c0850a7",
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "title": "Microsoft Word - Schwager, Jack. The New Market Wizards _English_.doc",
+    "author": "MaVeRiCk",
+    "subject": "",
+    "keywords": "",
+    "creator": "PScript5.dll Version 5.2",
+    "producer": "Acrobat Distiller 6.0 (Windows)",
+    "creationDate": "D:20040801104814+02'00'",
+    "modDate": "D:20140304103725+02'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "extraction_complete": true,
+  "limitations": [
+    "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+    "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+    "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+  ],
+  "low_text_pages": [],
+  "ocr_attempted_pages": 0,
+  "duplicate_text_pages": []
+}
