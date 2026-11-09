@@ -1,0 +1,80 @@
+{
+  "id": "elder",
+  "filename": "epdf.pub_trading-for-a-living.pdf",
+  "title": "Трейдинг: психология, тактика, управление капиталом",
+  "author": "Александр Элдер",
+  "category": "Риск и система",
+  "pages": 306,
+  "characters": 668193,
+  "words": 103263,
+  "kind": "book",
+  "sourceLabel": "Книга · текстовый PDF",
+  "ocr_pages": 1,
+  "images": 612,
+  "tables": 0,
+  "toc_entries": 0,
+  "flagged_pages": [
+    5,
+    9
+  ],
+  "empty_pages": [
+    9
+  ],
+  "errors": [],
+  "sha256": "d9fbe078f7ed21cdcdfe3eecc5185611641a8745a65e8c7d523dde559cccd374",
+  "pdf_metadata": {
+    "format": "PDF 1.5",
+    "title": "trading-for-a-living",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "Internet Archive",
+    "producer": "Recoded by LuraDocument PDF v2.68",
+    "creationDate": "D:20200607080440Z",
+    "modDate": "D:20200607083535Z",
+    "trapped": "",
+    "encryption": null
+  },
+  "extraction_complete": true,
+  "limitations": [
+    "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+    "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+    "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+  ],
+  "low_text_pages": [
+    5,
+    9
+  ],
+  "ocr_attempted_pages": 3,
+  "duplicate_text_pages": [
+    [
+      71,
+      73
+    ],
+    [
+      211,
+      213
+    ],
+    [
+      212,
+      214
+    ],
+    [
+      261,
+      262,
+      263
+    ],
+    [
+      269,
+      271
+    ],
+    [
+      270,
+      272
+    ],
+    [
+      286,
+      288
+    ]
+  ]
+}

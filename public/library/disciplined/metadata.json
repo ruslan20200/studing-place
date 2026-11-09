@@ -1,0 +1,82 @@
+{
+  "id": "disciplined",
+  "filename": "The Disciplined Trader PDF.pdf",
+  "title": "Дисциплинированный трейдер",
+  "author": "Марк Дуглас",
+  "category": "Психология",
+  "pages": 191,
+  "characters": 152480,
+  "words": 22994,
+  "kind": "summary",
+  "sourceLabel": "Пересказ Bookey",
+  "ocr_pages": 28,
+  "images": 15,
+  "tables": 4,
+  "toc_entries": 0,
+  "flagged_pages": [],
+  "empty_pages": [],
+  "errors": [],
+  "sha256": "7216c9660e95051a82b2ccad0dd43c7477812be1614bd0c227fed89f6d958416",
+  "pdf_metadata": {
+    "format": "PDF 1.3",
+    "title": "The Disciplined Trader",
+    "author": "Mark Douglas",
+    "subject": "",
+    "keywords": "The Disciplined Trader",
+    "creator": "BOOKEY",
+    "producer": "jsPDF 2.5.2",
+    "creationDate": "D:20261013235858+08'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "extraction_complete": true,
+  "limitations": [
+    "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+    "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+    "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+  ],
+  "low_text_pages": [],
+  "ocr_attempted_pages": 28,
+  "duplicate_text_pages": [
+    [
+      5,
+      65,
+      152
+    ],
+    [
+      20,
+      73,
+      166
+    ],
+    [
+      32,
+      114,
+      174
+    ],
+    [
+      43,
+      125
+    ],
+    [
+      55,
+      139
+    ],
+    [
+      78,
+      83,
+      88,
+      94,
+      99,
+      102
+    ],
+    [
+      177,
+      180,
+      183,
+      186,
+      189,
+      191
+    ]
+  ]
+}
