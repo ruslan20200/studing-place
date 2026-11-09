@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.venv/
+archive/
+qa/
+.DS_Store
+
+.logs/
+preview.png
+reading-preview.png

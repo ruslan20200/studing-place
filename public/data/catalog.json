@@ -1,0 +1,980 @@
+[
+  {
+    "id": "murphy",
+    "filename": "John_J._Murphy_-_Technical_Analysis_Of_The_Financial_Markets.pdf",
+    "title": "Технический анализ финансовых рынков",
+    "author": "Джон Мёрфи",
+    "category": "Рынок и графики",
+    "pages": 596,
+    "characters": 779288,
+    "words": 132130,
+    "kind": "scan",
+    "sourceLabel": "Книга · распознанный скан",
+    "ocr_pages": 573,
+    "images": 596,
+    "tables": 0,
+    "toc_entries": 0,
+    "flagged_pages": [
+      1,
+      3,
+      6,
+      7,
+      27,
+      33,
+      35,
+      37,
+      71,
+      85,
+      265,
+      305,
+      365,
+      423,
+      439,
+      459,
+      483,
+      514,
+      515,
+      527,
+      545,
+      557,
+      575,
+      583,
+      596
+    ],
+    "empty_pages": [
+      1,
+      3,
+      7,
+      27,
+      33,
+      35,
+      37,
+      71,
+      85,
+      265,
+      305,
+      365,
+      423,
+      439,
+      459,
+      483,
+      514,
+      515,
+      527,
+      545,
+      557,
+      575,
+      583,
+      596
+    ],
+    "errors": [],
+    "sha256": "8e3a25ce68bd78bea461aa8eec16eda289c8632687ea933232e393890ec912d8",
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "HP 9100C Digital Sender",
+      "producer": "",
+      "creationDate": "D:19800110214741Z",
+      "modDate": "D:20030315131348-08'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [
+      1,
+      3,
+      6,
+      7,
+      27,
+      33,
+      35,
+      37,
+      71,
+      85,
+      265,
+      305,
+      365,
+      423,
+      439,
+      459,
+      483,
+      514,
+      515,
+      527,
+      545,
+      557,
+      575,
+      583,
+      596
+    ],
+    "ocr_attempted_pages": 596,
+    "duplicate_text_pages": [
+      [
+        16,
+        17
+      ],
+      [
+        327,
+        329
+      ],
+      [
+        469,
+        470,
+        473
+      ]
+    ]
+  },
+  {
+    "id": "bernstein",
+    "filename": "Jake Bernstein - The Compleat Day Trader Vol I.pdf",
+    "title": "Полное руководство дневного трейдера",
+    "author": "Джейк Бернстайн",
+    "category": "Торговый процесс",
+    "pages": 242,
+    "characters": 379551,
+    "words": 67020,
+    "kind": "scan",
+    "sourceLabel": "Книга · распознанный скан",
+    "ocr_pages": 239,
+    "images": 242,
+    "tables": 0,
+    "toc_entries": 0,
+    "flagged_pages": [
+      1,
+      9,
+      242
+    ],
+    "empty_pages": [
+      1,
+      9,
+      242
+    ],
+    "errors": [],
+    "sha256": "52d1b49f61bd60aed227bcc175078ae6ccde6070cc30b92c742b04df017687bd",
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "HP 9100C Digital Sender",
+      "producer": "",
+      "creationDate": "D:19800104230637Z",
+      "modDate": "D:20030323222526-08'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [
+      1,
+      9,
+      242
+    ],
+    "ocr_attempted_pages": 242,
+    "duplicate_text_pages": []
+  },
+  {
+    "id": "elder",
+    "filename": "epdf.pub_trading-for-a-living.pdf",
+    "title": "Трейдинг: психология, тактика, управление капиталом",
+    "author": "Александр Элдер",
+    "category": "Риск и система",
+    "pages": 306,
+    "characters": 668193,
+    "words": 103263,
+    "kind": "book",
+    "sourceLabel": "Книга · текстовый PDF",
+    "ocr_pages": 1,
+    "images": 612,
+    "tables": 0,
+    "toc_entries": 0,
+    "flagged_pages": [
+      5,
+      9
+    ],
+    "empty_pages": [
+      9
+    ],
+    "errors": [],
+    "sha256": "d9fbe078f7ed21cdcdfe3eecc5185611641a8745a65e8c7d523dde559cccd374",
+    "pdf_metadata": {
+      "format": "PDF 1.5",
+      "title": "trading-for-a-living",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Internet Archive",
+      "producer": "Recoded by LuraDocument PDF v2.68",
+      "creationDate": "D:20200607080440Z",
+      "modDate": "D:20200607083535Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [
+      5,
+      9
+    ],
+    "ocr_attempted_pages": 3,
+    "duplicate_text_pages": [
+      [
+        71,
+        73
+      ],
+      [
+        211,
+        213
+      ],
+      [
+        212,
+        214
+      ],
+      [
+        261,
+        262,
+        263
+      ],
+      [
+        269,
+        271
+      ],
+      [
+        270,
+        272
+      ],
+      [
+        286,
+        288
+      ]
+    ]
+  },
+  {
+    "id": "forex",
+    "filename": "10_essentials_of_forex_trading.pdf",
+    "title": "10 основ торговли на Forex",
+    "author": "Джаред Мартинес",
+    "category": "Рынки",
+    "pages": 236,
+    "characters": 393988,
+    "words": 64429,
+    "kind": "book",
+    "sourceLabel": "Книга · текстовый PDF",
+    "ocr_pages": 9,
+    "images": 122,
+    "tables": 7,
+    "toc_entries": 146,
+    "flagged_pages": [],
+    "empty_pages": [],
+    "errors": [],
+    "sha256": "3d831969cfd40a27c6dafa5b3081b6328f0487e25ff51dca675a1e34661428e8",
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [
+      2,
+      3,
+      8,
+      16,
+      34,
+      64,
+      106,
+      130,
+      146,
+      168,
+      178,
+      218,
+      226
+    ],
+    "ocr_attempted_pages": 9,
+    "duplicate_text_pages": []
+  },
+  {
+    "id": "wizards",
+    "filename": "The_New_Market_Wizards.pdf",
+    "title": "Новые маги рынка",
+    "author": "Джек Швагер",
+    "category": "Торговый процесс",
+    "pages": 190,
+    "characters": 958313,
+    "words": 162590,
+    "kind": "book",
+    "sourceLabel": "Книга · текстовый PDF",
+    "ocr_pages": 0,
+    "images": 0,
+    "tables": 0,
+    "toc_entries": 0,
+    "flagged_pages": [],
+    "empty_pages": [],
+    "errors": [],
+    "sha256": "b16bf3f7cf34892095035ed36d57f8fb2ab3a5624308450e2fcaddd56c0850a7",
+    "pdf_metadata": {
+      "format": "PDF 1.6",
+      "title": "Microsoft Word - Schwager, Jack. The New Market Wizards _English_.doc",
+      "author": "MaVeRiCk",
+      "subject": "",
+      "keywords": "",
+      "creator": "PScript5.dll Version 5.2",
+      "producer": "Acrobat Distiller 6.0 (Windows)",
+      "creationDate": "D:20040801104814+02'00'",
+      "modDate": "D:20140304103725+02'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [],
+    "ocr_attempted_pages": 0,
+    "duplicate_text_pages": []
+  },
+  {
+    "id": "zone",
+    "filename": "Trading In The Zone PDF.pdf",
+    "title": "Трейдинг в зоне",
+    "author": "Марк Дуглас",
+    "category": "Психология",
+    "pages": 128,
+    "characters": 103580,
+    "words": 15432,
+    "kind": "summary",
+    "sourceLabel": "Пересказ Bookey",
+    "ocr_pages": 18,
+    "images": 13,
+    "tables": 2,
+    "toc_entries": 0,
+    "flagged_pages": [],
+    "empty_pages": [],
+    "errors": [],
+    "sha256": "7c1d3ea23ad88512d7f911dc67d4600642c7ef292729909e541e4de194ad1141",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "Trading In The Zone",
+      "author": "Mark Douglas",
+      "subject": "",
+      "keywords": "Trading In The Zone",
+      "creator": "BOOKEY",
+      "producer": "jsPDF 2.5.2",
+      "creationDate": "D:20261012110938+08'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [],
+    "ocr_attempted_pages": 18,
+    "duplicate_text_pages": [
+      [
+        5,
+        84
+      ],
+      [
+        19,
+        97
+      ],
+      [
+        28,
+        109
+      ],
+      [
+        42,
+        117
+      ],
+      [
+        57,
+        62,
+        66,
+        69
+      ],
+      [
+        120,
+        123,
+        126,
+        128
+      ]
+    ]
+  },
+  {
+    "id": "disciplined",
+    "filename": "The Disciplined Trader PDF.pdf",
+    "title": "Дисциплинированный трейдер",
+    "author": "Марк Дуглас",
+    "category": "Психология",
+    "pages": 191,
+    "characters": 152480,
+    "words": 22994,
+    "kind": "summary",
+    "sourceLabel": "Пересказ Bookey",
+    "ocr_pages": 28,
+    "images": 15,
+    "tables": 4,
+    "toc_entries": 0,
+    "flagged_pages": [],
+    "empty_pages": [],
+    "errors": [],
+    "sha256": "7216c9660e95051a82b2ccad0dd43c7477812be1614bd0c227fed89f6d958416",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "The Disciplined Trader",
+      "author": "Mark Douglas",
+      "subject": "",
+      "keywords": "The Disciplined Trader",
+      "creator": "BOOKEY",
+      "producer": "jsPDF 2.5.2",
+      "creationDate": "D:20261013235858+08'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [],
+    "ocr_attempted_pages": 28,
+    "duplicate_text_pages": [
+      [
+        5,
+        65,
+        152
+      ],
+      [
+        20,
+        73,
+        166
+      ],
+      [
+        32,
+        114,
+        174
+      ],
+      [
+        43,
+        125
+      ],
+      [
+        55,
+        139
+      ],
+      [
+        78,
+        83,
+        88,
+        94,
+        99,
+        102
+      ],
+      [
+        177,
+        180,
+        183,
+        186,
+        189,
+        191
+      ]
+    ]
+  },
+  {
+    "id": "goodtrade",
+    "filename": "One Good Trade PDF.pdf",
+    "title": "Одна хорошая сделка",
+    "author": "Майк Беллафиоре",
+    "category": "Торговый процесс",
+    "pages": 159,
+    "characters": 126210,
+    "words": 19228,
+    "kind": "summary",
+    "sourceLabel": "Пересказ Bookey",
+    "ocr_pages": 23,
+    "images": 13,
+    "tables": 3,
+    "toc_entries": 0,
+    "flagged_pages": [],
+    "empty_pages": [],
+    "errors": [],
+    "sha256": "602854731bd74810995a244f8df3b49a10ade4ab568c576a020c1dd70450c626",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "One Good Trade",
+      "author": "Mike Bellafiore",
+      "subject": "",
+      "keywords": "One Good Trade",
+      "creator": "BOOKEY",
+      "producer": "jsPDF 2.5.2",
+      "creationDate": "D:20261012201403+08'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [],
+    "ocr_attempted_pages": 23,
+    "duplicate_text_pages": [
+      [
+        5,
+        62,
+        145
+      ],
+      [
+        20,
+        100
+      ],
+      [
+        34,
+        112
+      ],
+      [
+        46,
+        125
+      ],
+      [
+        58,
+        139
+      ],
+      [
+        67,
+        71,
+        76,
+        81,
+        83
+      ],
+      [
+        148,
+        151,
+        154,
+        157,
+        159
+      ]
+    ]
+  },
+  {
+    "id": "probability",
+    "filename": "High Probability Trading PDF.pdf",
+    "title": "Торговля с высокой вероятностью",
+    "author": "Марсель Линк",
+    "category": "Риск и система",
+    "pages": 259,
+    "characters": 200609,
+    "words": 30848,
+    "kind": "summary",
+    "sourceLabel": "Пересказ Bookey",
+    "ocr_pages": 35,
+    "images": 13,
+    "tables": 5,
+    "toc_entries": 0,
+    "flagged_pages": [],
+    "empty_pages": [],
+    "errors": [],
+    "sha256": "2b50054af9961b806a3471ab2d294c8f5f749d115ba699ee0e88114aa1643506",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "High Probability Trading",
+      "author": "Marcel Link",
+      "subject": "",
+      "keywords": "High Probability Trading",
+      "creator": "BOOKEY",
+      "producer": "jsPDF 2.5.2",
+      "creationDate": "D:20261013054053+08'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [],
+    "ocr_attempted_pages": 35,
+    "duplicate_text_pages": [
+      [
+        5,
+        72,
+        161,
+        231
+      ],
+      [
+        17,
+        84,
+        174,
+        236
+      ],
+      [
+        28,
+        97,
+        188
+      ],
+      [
+        40,
+        104,
+        203
+      ],
+      [
+        56,
+        147,
+        216
+      ],
+      [
+        108,
+        113,
+        117,
+        121,
+        125,
+        129,
+        134,
+        137
+      ],
+      [
+        239,
+        242,
+        245,
+        248,
+        251,
+        254,
+        257,
+        259
+      ]
+    ]
+  },
+  {
+    "id": "kahneman",
+    "filename": "Daniel Kahneman-Thinking, Fast and Slow  .pdf",
+    "title": "Думай медленно… решай быстро",
+    "author": "Даниэль Канеман",
+    "category": "Психология",
+    "pages": 533,
+    "characters": 1188546,
+    "words": 190581,
+    "kind": "book",
+    "sourceLabel": "Книга · текстовый PDF",
+    "ocr_pages": 2,
+    "images": 28,
+    "tables": 0,
+    "toc_entries": 0,
+    "flagged_pages": [],
+    "empty_pages": [
+      3,
+      19,
+      20,
+      106,
+      107,
+      193,
+      194,
+      259,
+      260,
+      366,
+      367,
+      526
+    ],
+    "errors": [],
+    "sha256": "2ebd90d54b93c2ac2f55187976f513bffc59e41c72a7ea710a7ba27b05ce5aa5",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "Thinking, Fast and Slow",
+      "author": "Kahneman, Daniel",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Python PDF Library - http://pybrary.net/pyPdf/",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [
+      3,
+      19,
+      20,
+      106,
+      107,
+      193,
+      194,
+      247,
+      259,
+      260,
+      291,
+      366,
+      367,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531
+    ],
+    "ocr_attempted_pages": 2,
+    "duplicate_text_pages": []
+  },
+  {
+    "id": "poker",
+    "filename": "The_Mental_Game_of_Poker_ Jared_Tendler.pdf",
+    "title": "Психология покера",
+    "author": "Джаред Тендлер и Барри Картер",
+    "category": "Психология",
+    "pages": 198,
+    "characters": 418967,
+    "words": 68326,
+    "kind": "book",
+    "sourceLabel": "Книга · текстовый PDF",
+    "ocr_pages": 1,
+    "images": 19,
+    "tables": 0,
+    "toc_entries": 188,
+    "flagged_pages": [],
+    "empty_pages": [
+      4
+    ],
+    "errors": [],
+    "sha256": "37616de2472bb49b42cbe1ff9303632e83b38033bf7e32c6cf8e343bdfbb0d6b",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "The Mental Game of Poker: Proven Strategies for Improving Tilt Control, Confidence, Motivation, Coping With Variance, and More.",
+      "author": "Jared Tendler & Barry Carter",
+      "subject": "",
+      "keywords": "",
+      "creator": "calibre 0.9.32 [http://calibre-ebook.com]",
+      "producer": "calibre 0.9.32 [http://calibre-ebook.com]",
+      "creationDate": "D:20130527134601+00'00'",
+      "modDate": "D:20161101073152+02'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [
+      4,
+      5
+    ],
+    "ocr_attempted_pages": 1,
+    "duplicate_text_pages": []
+  },
+  {
+    "id": "poker2",
+    "filename": "The Mental Game of Poker 2 PDF.pdf",
+    "title": "Психология покера — 2",
+    "author": "Джаред Тендлер",
+    "category": "Психология",
+    "pages": 153,
+    "characters": 119357,
+    "words": 18075,
+    "kind": "summary",
+    "sourceLabel": "Пересказ Bookey",
+    "ocr_pages": 23,
+    "images": 13,
+    "tables": 3,
+    "toc_entries": 0,
+    "flagged_pages": [],
+    "empty_pages": [],
+    "errors": [],
+    "sha256": "ba10026d6d8d956c0291451518ac67bfa2e9a0ca12f22f01cc769d25dbd68d0d",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "The Mental Game of Poker 2",
+      "author": "Jared Tendler",
+      "subject": "",
+      "keywords": "The Mental Game of Poker 2",
+      "creator": "BOOKEY",
+      "producer": "jsPDF 2.5.2",
+      "creationDate": "D:20261014111109+08'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [],
+    "ocr_attempted_pages": 23,
+    "duplicate_text_pages": [
+      [
+        5,
+        60,
+        139
+      ],
+      [
+        18,
+        95
+      ],
+      [
+        32,
+        109
+      ],
+      [
+        42,
+        121
+      ],
+      [
+        54,
+        134
+      ],
+      [
+        65,
+        69,
+        74,
+        79,
+        81
+      ],
+      [
+        142,
+        145,
+        148,
+        151,
+        153
+      ]
+    ]
+  },
+  {
+    "id": "learning",
+    "filename": "The Art of Learning PDF.pdf",
+    "title": "Искусство учиться",
+    "author": "Джош Вайцкин",
+    "category": "Обучение",
+    "pages": 226,
+    "characters": 187773,
+    "words": 28400,
+    "kind": "summary",
+    "sourceLabel": "Пересказ Bookey",
+    "ocr_pages": 31,
+    "images": 13,
+    "tables": 4,
+    "toc_entries": 0,
+    "flagged_pages": [
+      25
+    ],
+    "empty_pages": [
+      25
+    ],
+    "errors": [],
+    "sha256": "17342f617d9f52affdb8580ac12aa3110e8f5108c568c06fb1593db28e483400",
+    "pdf_metadata": {
+      "format": "PDF 1.3",
+      "title": "The Art of Learning",
+      "author": "Josh Waitzkin",
+      "subject": "",
+      "keywords": "The Art of Learning",
+      "creator": "BOOKEY",
+      "producer": "jsPDF 2.5.2",
+      "creationDate": "D:20261012163900+08'00'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "extraction_complete": true,
+    "limitations": [
+      "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+      "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+      "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+    ],
+    "low_text_pages": [
+      25
+    ],
+    "ocr_attempted_pages": 32,
+    "duplicate_text_pages": [
+      [
+        5,
+        68,
+        157
+      ],
+      [
+        19,
+        79,
+        170
+      ],
+      [
+        35,
+        89,
+        183
+      ],
+      [
+        44,
+        131,
+        196
+      ],
+      [
+        57,
+        144,
+        206
+      ],
+      [
+        94,
+        98,
+        102,
+        106,
+        110,
+        114,
+        117
+      ],
+      [
+        209,
+        212,
+        215,
+        218,
+        221,
+        224,
+        226
+      ]
+    ]
+  }
+]

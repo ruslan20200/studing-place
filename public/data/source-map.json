@@ -1,0 +1,336 @@
+{
+  "murphy": {
+    "Trend": {
+      "page": 86,
+      "query": "Trend"
+    },
+    "Support": {
+      "page": 92,
+      "query": "Support"
+    },
+    "Volume": {
+      "page": 195,
+      "query": "Volume"
+    },
+    "Moving Averages": {
+      "page": 232,
+      "query": "Moving Averages"
+    },
+    "Candlestick": {
+      "page": 342,
+      "query": "Candlestick"
+    },
+    "Intermarket": {
+      "page": 460,
+      "query": "Intermarket"
+    },
+    "Gaps": {
+      "page": 131,
+      "query": "Gaps"
+    }
+  },
+  "bernstein": {
+    "day trading": {
+      "page": 15,
+      "query": "day trading"
+    },
+    "breakout": {
+      "page": 117,
+      "query": "breakout"
+    },
+    "risk": {
+      "page": 23,
+      "query": "risk"
+    },
+    "system": {
+      "page": 14,
+      "query": "system"
+    }
+  },
+  "elder": {
+    "Individual Psychology": {
+      "page": 20,
+      "query": "Individual Psychology"
+    },
+    "Mass Psychology": {
+      "page": 52,
+      "query": "Mass Psychology"
+    },
+    "Triple Screen": {
+      "page": 248,
+      "query": "Triple Screen"
+    },
+    "Force Index": {
+      "page": 240,
+      "query": "Force Index"
+    },
+    "Money Management": {
+      "page": 273,
+      "query": "Money Management"
+    },
+    "Exiting Trades": {
+      "page": 280,
+      "query": "Exiting Trades"
+    },
+    "What Is Price": {
+      "page": 52,
+      "query": "What Is Price"
+    },
+    "Slippage": {
+      "page": 84,
+      "query": "Slippage"
+    },
+    "Volume": {
+      "page": 29,
+      "query": "Volume"
+    },
+    "Oscillators": {
+      "page": 153,
+      "query": "Oscillators"
+    },
+    "Chart Patterns": {
+      "page": 94,
+      "query": "Chart Patterns"
+    },
+    "Probabilities": {
+      "page": 269,
+      "query": "Probabilities"
+    },
+    "margin": {
+      "page": 22,
+      "query": "margin"
+    },
+    "records": {
+      "page": 222,
+      "query": "records"
+    },
+    "computer": {
+      "page": 25,
+      "query": "computer"
+    }
+  },
+  "forex": {
+    "pip": {
+      "page": 42,
+      "query": "pip"
+    },
+    "leverage": {
+      "page": 41,
+      "query": "leverage"
+    },
+    "candlestick": {
+      "page": 53,
+      "query": "candlestick"
+    },
+    "fundamental": {
+      "page": 38,
+      "query": "fundamental"
+    },
+    "forex": {
+      "page": 19,
+      "query": "forex"
+    }
+  },
+  "wizards": {
+    "Lipschutz": {
+      "page": 13,
+      "query": "Lipschutz"
+    },
+    "Eckhardt": {
+      "page": 45,
+      "query": "Eckhardt"
+    },
+    "Basso": {
+      "page": 108,
+      "query": "Basso"
+    },
+    "risk": {
+      "page": 16,
+      "query": "risk"
+    },
+    "Futures-Understanding the Basics": {
+      "page": 34,
+      "query": "Futures-Understanding the Basics"
+    },
+    "systems": {
+      "page": 46,
+      "query": "systems"
+    }
+  },
+  "zone": {
+    "probabilities": {
+      "page": 22,
+      "query": "probabilities"
+    },
+    "responsibility": {
+      "page": 15,
+      "query": "responsibility"
+    },
+    "beliefs": {
+      "page": 10,
+      "query": "beliefs"
+    },
+    "consistency": {
+      "page": 15,
+      "query": "consistency"
+    }
+  },
+  "disciplined": {
+    "fear": {
+      "page": 67,
+      "query": "fear"
+    },
+    "belief": {
+      "page": 13,
+      "query": "belief"
+    },
+    "discipline": {
+      "page": 8,
+      "query": "discipline"
+    },
+    "risk": {
+      "page": 35,
+      "query": "risk"
+    }
+  },
+  "goodtrade": {
+    "preparation": {
+      "page": 109,
+      "query": "preparation"
+    },
+    "One Good Trade": {
+      "page": 11,
+      "query": "One Good Trade"
+    },
+    "review": {
+      "page": 34,
+      "query": "review"
+    },
+    "learning": {
+      "page": 32,
+      "query": "learning"
+    }
+  },
+  "probability": {
+    "Multiple Time": {
+      "page": 39,
+      "query": "Multiple Time"
+    },
+    "Exits and Stops": {
+      "page": 57,
+      "query": "Exits and Stops"
+    },
+    "Trading Plan": {
+      "page": 70,
+      "query": "Trading Plan"
+    },
+    "commissions": {
+      "page": 31,
+      "query": "commissions"
+    },
+    "risk management": {
+      "page": 13,
+      "query": "risk management"
+    },
+    "backtest": {
+      "page": 8,
+      "query": "backtest"
+    },
+    "Trading the News": {
+      "page": 33,
+      "query": "Trading the News"
+    }
+  },
+  "kahneman": {
+    "The Law of Small Numbers": {
+      "page": 108,
+      "query": "The Law of Small Numbers"
+    },
+    "Anchors": {
+      "page": 118,
+      "query": "Anchors"
+    },
+    "The Illusion of Validity": {
+      "page": 204,
+      "query": "The Illusion of Validity"
+    },
+    "The Outside View": {
+      "page": 238,
+      "query": "The Outside View"
+    },
+    "Prospect Theory": {
+      "page": 270,
+      "query": "Prospect Theory"
+    }
+  },
+  "poker": {
+    "Learning Model": {
+      "page": 25,
+      "query": "Learning Model"
+    },
+    "Inchworm": {
+      "page": 29,
+      "query": "Inchworm"
+    },
+    "Process Model": {
+      "page": 36,
+      "query": "Process Model"
+    },
+    "Injecting Logic": {
+      "page": 51,
+      "query": "Injecting Logic"
+    },
+    "Mental Hand History": {
+      "page": 102,
+      "query": "Mental Hand History"
+    },
+    "Tilt Profile": {
+      "page": 70,
+      "query": "Tilt Profile"
+    },
+    "Results-oriented": {
+      "page": 149,
+      "query": "Results-oriented"
+    },
+    "Fear": {
+      "page": 25,
+      "query": "Fear"
+    }
+  },
+  "poker2": {
+    "zone": {
+      "page": 8,
+      "query": "zone"
+    },
+    "focus": {
+      "page": 11,
+      "query": "focus"
+    },
+    "learning": {
+      "page": 11,
+      "query": "learning"
+    }
+  },
+  "learning": {
+    "Losing to Win": {
+      "page": 122,
+      "query": "Losing to Win"
+    },
+    "Making Smaller Circles": {
+      "page": 51,
+      "query": "Making Smaller Circles"
+    },
+    "Soft Zone": {
+      "page": 27,
+      "query": "Soft Zone"
+    },
+    "Presence": {
+      "page": 34,
+      "query": "Presence"
+    },
+    "learning": {
+      "page": 9,
+      "query": "learning"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "books": 13,
+  "pages": 3417,
+  "characters": 5676855,
+  "ocr_pages": 983,
+  "summary_files": 6,
+  "images": 1699,
+  "tables": 28,
+  "complete": true,
+  "errors": [],
+  "recovered_pages": [
+    {
+      "book": "murphy",
+      "page": 4,
+      "note": "OCR timeout resolved by isolated retry"
+    }
+  ]
+}
