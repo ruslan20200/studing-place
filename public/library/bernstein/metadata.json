@@ -1,0 +1,54 @@
+{
+  "id": "bernstein",
+  "filename": "Jake Bernstein - The Compleat Day Trader Vol I.pdf",
+  "title": "Полное руководство дневного трейдера",
+  "author": "Джейк Бернстайн",
+  "category": "Торговый процесс",
+  "pages": 242,
+  "characters": 379551,
+  "words": 67020,
+  "kind": "scan",
+  "sourceLabel": "Книга · распознанный скан",
+  "ocr_pages": 239,
+  "images": 242,
+  "tables": 0,
+  "toc_entries": 0,
+  "flagged_pages": [
+    1,
+    9,
+    242
+  ],
+  "empty_pages": [
+    1,
+    9,
+    242
+  ],
+  "errors": [],
+  "sha256": "52d1b49f61bd60aed227bcc175078ae6ccde6070cc30b92c742b04df017687bd",
+  "pdf_metadata": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "HP 9100C Digital Sender",
+    "producer": "",
+    "creationDate": "D:19800104230637Z",
+    "modDate": "D:20030323222526-08'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "extraction_complete": true,
+  "limitations": [
+    "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+    "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+    "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+  ],
+  "low_text_pages": [
+    1,
+    9,
+    242
+  ],
+  "ocr_attempted_pages": 242,
+  "duplicate_text_pages": []
+}
