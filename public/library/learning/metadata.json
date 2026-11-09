@@ -1,0 +1,92 @@
+{
+  "id": "learning",
+  "filename": "The Art of Learning PDF.pdf",
+  "title": "Искусство учиться",
+  "author": "Джош Вайцкин",
+  "category": "Обучение",
+  "pages": 226,
+  "characters": 187773,
+  "words": 28400,
+  "kind": "summary",
+  "sourceLabel": "Пересказ Bookey",
+  "ocr_pages": 31,
+  "images": 13,
+  "tables": 4,
+  "toc_entries": 0,
+  "flagged_pages": [
+    25
+  ],
+  "empty_pages": [
+    25
+  ],
+  "errors": [],
+  "sha256": "17342f617d9f52affdb8580ac12aa3110e8f5108c568c06fb1593db28e483400",
+  "pdf_metadata": {
+    "format": "PDF 1.3",
+    "title": "The Art of Learning",
+    "author": "Josh Waitzkin",
+    "subject": "",
+    "keywords": "The Art of Learning",
+    "creator": "BOOKEY",
+    "producer": "jsPDF 2.5.2",
+    "creationDate": "D:20261012163900+08'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "extraction_complete": true,
+  "limitations": [
+    "OCR может искажать формулы, подписи и таблицы; сверять с оригиналом.",
+    "Рисунки в векторном формате сохраняются в исходном PDF; извлечённые assets содержат растровые изображения.",
+    "Обнаружение таблиц автоматическое; отсутствие таблицы в tables.json не означает её отсутствия в PDF."
+  ],
+  "low_text_pages": [
+    25
+  ],
+  "ocr_attempted_pages": 32,
+  "duplicate_text_pages": [
+    [
+      5,
+      68,
+      157
+    ],
+    [
+      19,
+      79,
+      170
+    ],
+    [
+      35,
+      89,
+      183
+    ],
+    [
+      44,
+      131,
+      196
+    ],
+    [
+      57,
+      144,
+      206
+    ],
+    [
+      94,
+      98,
+      102,
+      106,
+      110,
+      114,
+      117
+    ],
+    [
+      209,
+      212,
+      215,
+      218,
+      221,
+      224,
+      226
+    ]
+  ]
+}

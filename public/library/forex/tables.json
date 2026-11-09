@@ -1,0 +1,567 @@
+[
+  {
+    "page": 12,
+    "bbox": [
+      42.03999328613281,
+      70.6100082397461,
+      309.49615478515625,
+      585.20703125
+    ],
+    "rows": [
+      [
+        "3",
+        "Self -EmpowermentviaTradingSoftware 31",
+        null,
+        ""
+      ],
+      [
+        "",
+        "HowtoDetermineMarketDirection",
+        "35",
+        ""
+      ],
+      [
+        "",
+        "UsingIndicatorstoDetermineanEntryPoint 37",
+        null,
+        ""
+      ],
+      [
+        "",
+        "UsingIndicatorstoDetermineExitStrategies 41",
+        null,
+        ""
+      ],
+      [
+        "",
+        "UsingMultipleTimeFramestoTrade",
+        "44",
+        ""
+      ],
+      [
+        "",
+        "Conclusion 44",
+        "",
+        ""
+      ],
+      [
+        "4",
+        "TradingJapaneseCandlesticks",
+        "47",
+        ""
+      ],
+      [
+        "",
+        "TheHistoryofJapaneseCandlesticks",
+        "47",
+        ""
+      ],
+      [
+        "",
+        "HowtoReadaJapaneseCandlestick",
+        "49",
+        ""
+      ],
+      [
+        "",
+        "ReadingaJapaneseCandlestickChart",
+        "50",
+        ""
+      ],
+      [
+        "",
+        "HowtoFindaHigh 50",
+        "",
+        ""
+      ],
+      [
+        "",
+        "UnderstandingtheDifferentJapaneseCandlesticks",
+        null,
+        "52"
+      ],
+      [
+        "",
+        "CandlestickFormations 56",
+        "",
+        ""
+      ],
+      [
+        "",
+        "BullishCandlestickFormationsorBuySignals 57",
+        null,
+        ""
+      ],
+      [
+        "",
+        "BearishCandlestickFormationorSellSignals 62",
+        null,
+        ""
+      ],
+      [
+        "",
+        "TradingCandlestickPatterns 68",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Conclusion 70",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "TheFinancialGameofSupportandResistance 71",
+        null,
+        null
+      ],
+      [
+        "",
+        "TheGame 73",
+        "",
+        ""
+      ],
+      [
+        "",
+        "HowdoBullsandBearsScorePoints?",
+        "74",
+        ""
+      ],
+      [
+        "",
+        "IdentifyingHighsandLows 75",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ResistanceandSupport 75",
+        "",
+        ""
+      ],
+      [
+        "",
+        "LearningtoShorttheMarket 81",
+        "",
+        ""
+      ],
+      [
+        "",
+        "PastResistancecanBecomeFutureSupport 83",
+        null,
+        ""
+      ],
+      [
+        "",
+        "PastSupportcanBecomeFutureResistance 84",
+        null,
+        ""
+      ],
+      [
+        "",
+        "VisuallyObservingtheGame 84",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Conclusion 86",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "bbox": [
+      36.38637924194336,
+      70.42303466796875,
+      262.6903991699219,
+      233.50401306152344
+    ],
+    "rows": [
+      [
+        "",
+        "RiskversusReward 195",
+        ""
+      ],
+      [
+        "",
+        "PercentagesMeanNothingWhenTrading",
+        "195"
+      ],
+      [
+        "",
+        "Conclusion 197",
+        ""
+      ],
+      [
+        "13",
+        "TheFinalAnalysis 201",
+        ""
+      ],
+      [
+        "",
+        "EducationFirst 204",
+        ""
+      ],
+      [
+        "",
+        "OurHabitsControlOurLives 205",
+        ""
+      ],
+      [
+        "",
+        "FindingYourPotofGold 205",
+        ""
+      ],
+      [
+        "",
+        "Glossary 209",
+        ""
+      ],
+      [
+        "",
+        "Index 213",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 71,
+    "bbox": [
+      36.804950866699215,
+      88.76702880859375,
+      299.7554016113281,
+      592.1600341796875
+    ],
+    "rows": [
+      [
+        "BULLISHPATTERN",
+        "",
+        "HAMMER . This is a bullish line if it occurs after a significant\ndowntrend . If the line occurs after a significant uptrend , it is called\na hanging man. A hammer is identified by a small body (a small\nrangebetweentheopenandclosingprices)andalonglowershadow\n(the low is significantly lower than the open, high , and closes) . The\nbody can be empty or filled in."
+      ],
+      [
+        "BULLISHPATTERN",
+        "",
+        "PIERCING LINE . This is a bullish pattern and the opposite of a\ndark cloud cover. The first line, on the left , is a bearish line, and the\nsecond line is a bullish line. The second line opens lower than the\nfirstline'slowbutclosesmorethanhalfwayabovethefirstline's\nreal body."
+      ],
+      [
+        "BULLISHPATTERN",
+        "",
+        "BULLISH ENGULFING LINES This pattern is strongly bullish if\n.\nit occurs after a significant downtrend (it acts as a reversal pattern) .\nItoccurswhenasmallbearishlineisengulfedbyalargebullish\nline."
+      ],
+      [
+        "BULLISHPATTERN",
+        "",
+        "MORNING STAR . This is a bullish pattern signifying a potential\nbottom. The star, at the bottom between the two lines, indicates a\npossible reversal; the bullish line confirms this. The star can be\nempty or filled in."
+      ],
+      [
+        "BULLISHPATTERN",
+        "",
+        "BULLISH DOJI STAR . A star indicates a reversal and a Doji\nindicates indecision. Thus, this pattern usually indicates a reversal\nafter an indecisive period . You should wait for a confirmation,\nas in the morning star in the previous pattern, before trading a Doji\nstar. The first line can be empty or filled in."
+      ],
+      [
+        "BEARISHPATTERN",
+        "",
+        "HANGING MAN . These lines are bearish if they occur after a\nsignificant uptrend , and if the pattern occurs after a significant\ndowntrend , it is called a hammer. They are identified by small real\nbodies(asmallrangebetweenopenandclosingprices)andalong\nlower shadow, that is, the low was significantly lower than the open,\nhigh , and close. The bodies can be empty or filled in."
+      ]
+    ]
+  },
+  {
+    "page": 72,
+    "bbox": [
+      42.39728927612305,
+      90.26697540283203,
+      310.4706115722656,
+      595.6682739257812
+    ],
+    "rows": [
+      [
+        "BEARISHPATTERN",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "DARK CLOUD COVER . This is a bearish pattern that is more\nsignificantifthesecondline'sbodyisbelowthecenterofthe\nprevious line's body (as illustrated)\n."
+      ],
+      [
+        "PATTERN",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "BEARISH ENGULFING LINES This line is strong and bearish if\n.\nit occurs after a significant uptrend —it acts as a reversal pattern. It"
+      ],
+      [
+        "BEARISH",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "occurs when a small bullish line is engulfed by a large bearish line."
+      ],
+      [
+        "BEARISHPATTERN",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "EVENING STAR . This is a bearish pattern signifying a potential\ntop. The star indicates a possible reversal , and the bearish line\nconfirms it . The star can be empty or filled in or it can be a Doji\nstar."
+      ],
+      [
+        "BEARISHPATTERN",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "DOJI STAR . A star indicates a reversal and a Doji indicates\nindecision. Thus, this pattern usually indicates a reversal after\nan indecisive period . You should wait for a confirmation, such as\nan evening star illustration, before trading a Doji star."
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "PATTERN",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SHOOTING STAR . This pattern suggests a minor reversal when it\nappears after a rally. The star's body must appear near the low price,"
+      ],
+      [
+        "BEARISH",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and the line should have a long upper shadow."
+      ],
+      [
+        "BEARISHPATTERN",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "LONG -LEGGED DOJI . This line often signifies a turning point . It\noccurs when the open and close are the same, and the range between\nthe high and the low is relatively large."
+      ],
+      [
+        "PATTERN",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "DRAGONFLY DOJI . This line also signifies a turning point . This\npatternoccurswhentheopenandtheclosearethesameandthelow"
+      ],
+      [
+        "BEARISH",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "is significantly lower than the open, high , and closing prices."
+      ]
+    ]
+  },
+  {
+    "page": 73,
+    "bbox": [
+      36.84852478720925,
+      88.38702392578125,
+      312.58469935825894,
+      535.1190185546875
+    ],
+    "rows": [
+      [
+        "BEARISHPATTERN",
+        "",
+        "GRAVESTONE DOJI This line signifies another turning point It\n. .\noccurs when the open, close, and low are the same, and the high is\nsignificantly higher than the open, low, and closing prices."
+      ],
+      [
+        "BEARISHPATTERN",
+        "",
+        "STAR . Stars indicate reversals. A star is a line with a small real\nbody that occurs after a line with a much larger real body, where the\nreal bodies do not overlap, although the shadows may."
+      ],
+      [
+        "NEUTRALPATTERN",
+        "",
+        "SPINNING TOPS . These are neutral lines. They occur when the\ndistance between the high and the low, and the distance between the\nopen and the close, are relatively small ."
+      ],
+      [
+        "NEUTRALPATTERN",
+        "",
+        "DOJI This line implies indecision because the security opened and\n.\nclosed at the same price. These lines can appear in several different\npatterns."
+      ],
+      [
+        "NEUTRALPATTERN",
+        "",
+        "DOUBLE DOJI . This implies a forceful move will follow a\nbreakout from the current indecision."
+      ],
+      [
+        "NEUTRALPATTERN",
+        "",
+        "HARAMI (“pregnant” in English) . This pattern indicates a decrease\nin momentum. It occurs when a line with a small body falls within\nthe area of a larger body. In this example, a bullish line with a long\nbodyisfollowedbyaweakbearishlineandimpliesadecreasein\nthe bullish momentum."
+      ]
+    ]
+  },
+  {
+    "page": 182,
+    "bbox": [
+      37.12268148149763,
+      373.16637992858887,
+      336.1050605773926,
+      585.0680236816406
+    ],
+    "rows": [
+      [
+        "Time(New\nYorkTime)",
+        "Location",
+        "Description",
+        "Forecast",
+        "Previously"
+      ],
+      [
+        "12/2310:00",
+        "US",
+        "NovNewHomeSales",
+        "1 .2 mln",
+        "1 .226 mln"
+      ],
+      [
+        "12/2309:45",
+        "US",
+        "Dec Univ. of Michigan Sent Survey final\n. –",
+        "957\n.",
+        "957\n."
+      ],
+      [
+        "12/2308:30",
+        "US",
+        "NovPersonalSpending",
+        "02%\n.",
+        "07%\n."
+      ],
+      [
+        "12/2308:30",
+        "US",
+        "NovCorePCEPriceIndex",
+        "14%\n.",
+        "15%\n."
+      ],
+      [
+        "12/2308:30",
+        "US",
+        "NovPersonalIncome",
+        "03%\n.",
+        "06%\n."
+      ],
+      [
+        "12/2308:30",
+        "CAN",
+        "OctRealGDP",
+        "02%\n.",
+        "00%\n."
+      ],
+      [
+        "12/2308:30",
+        "US",
+        "WeeklyJoblessClaims",
+        "335K",
+        "317K"
+      ],
+      [
+        "12/2308:30",
+        "US",
+        "NovDurableGoodsOrders",
+        "05%\n.",
+        "04%\n- ."
+      ],
+      [
+        "12/2308:30",
+        "US",
+        "Nov Durable Goods Orders ex transport .",
+        "08%\n.",
+        "07%\n- ."
+      ]
+    ]
+  },
+  {
+    "page": 211,
+    "bbox": [
+      38.6703987121582,
+      423.6809387207031,
+      276.5874938964844,
+      540.0671997070312
+    ],
+    "rows": [
+      [
+        "",
+        "$100000Account\n,",
+        ""
+      ],
+      [
+        "InMargin $1000\n,",
+        "$2500 $5000 $10000 $15000\n, , , ,",
+        null
+      ],
+      [
+        "Risk50pips $500\n%RisktoMargin 50%",
+        "$500 $500\n20% 10%",
+        "$500 $500\n5% 3%"
+      ],
+      [
+        "",
+        "$10000Account\n,",
+        ""
+      ],
+      [
+        "InMargin $1000\n,",
+        "$2500 $5000\n, ,",
+        "$10000 $15000\n, ,"
+      ],
+      [
+        "Risk50pips $50\n%RisktoMargin 5%",
+        "$50 $50\n2% 1%",
+        "$50 $50\n005% 003%\n. ."
+      ]
+    ]
+  }
+]
