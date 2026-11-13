@@ -1,3 +1,4 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-export default defineConfig({ plugins: [react()], build: { chunkSizeWarningLimit: 900 } });
+import {pwaPlugin} from './scripts/pwa.mjs';
+export default defineConfig({ plugins: [react(),pwaPlugin()], build: { chunkSizeWarningLimit: 900 } });

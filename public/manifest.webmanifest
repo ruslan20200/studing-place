@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Место обучения — трейдинг",
+  "short_name": "Место обучения",
+  "description": "Уроки, практика и личный журнал трейдера.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f5fa",
+  "theme_color": "#6a4be8",
+  "icons": [
+    {"src":"icons/app-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/app-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icons/app-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Журнал и сделки","short_name":"Журнал","url":"./#/journal"},
+    {"name":"Мой маршрут","short_name":"Уроки","url":"./#/course"}
+  ]
+}

@@ -1,6 +1,7 @@
+import AppExperience from './AppExperience';
 import {publicAsset} from './public-assets.mjs';
 import React,{useState,useEffect,useRef,useMemo} from 'react';
-import {LayoutDashboard,BookOpen,ChartNoAxesCombined,Brain,Library,Languages,NotebookPen,Search,ArrowRight,ArrowUpRight,ChevronRight,ChevronLeft,Check,Play,Pause,RotateCcw,ArrowDownToLine,Menu,X,Target,Clock,CheckCircle2,ArrowLeft,FolderOpen,FileText,ExternalLink,Bookmark,Compass,Lightbulb,SlidersHorizontal,Dumbbell,Flame,Moon,Sun,Trophy,Ellipsis,Shuffle,Sparkles,Circle} from 'lucide-react';
+import {Smartphone,LayoutDashboard,BookOpen,ChartNoAxesCombined,Brain,Library,Languages,NotebookPen,Search,ArrowRight,ArrowUpRight,ChevronRight,ChevronLeft,Check,Play,Pause,RotateCcw,ArrowDownToLine,Menu,X,Target,Clock,CheckCircle2,ArrowLeft,FolderOpen,FileText,ExternalLink,Bookmark,Compass,Lightbulb,SlidersHorizontal,Dumbbell,Flame,Moon,Sun,Trophy,Ellipsis,Shuffle,Sparkles,Circle} from 'lucide-react';
 import ReactMarkdown,{defaultUrlTransform} from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import {modules,lessons,glossary} from './data/curriculum';
@@ -21,7 +22,7 @@ const go=path=>{window.location.hash=path;};
 const countLessons=n=>n+' '+plural(n,'урок','урока','уроков');
 const icons=[LayoutDashboard,BookOpen,Dumbbell,ChartNoAxesCombined,Brain,Library,Languages,FolderOpen,NotebookPen];
 const nav=[['/','Обзор'],['/course','Мой маршрут'],['/practice','Практикум'],['/simulator','Тренажёр рынка'],['/psychology','Психология'],['/library','Библиотека'],['/glossary','Словарь терминов'],['/knowledge','База знаний'],['/journal','Журнал и сделки']];
-const mobileNav=[['/','Обзор',LayoutDashboard],['/course','Маршрут',BookOpen],['/practice','Практикум',Dumbbell],['/simulator','Тренажёр',ChartNoAxesCombined]];
+const mobileNav=[['/','Обзор',LayoutDashboard],['/course','Маршрут',BookOpen],['/journal','Журнал',NotebookPen],['/simulator','Тренажёр',ChartNoAxesCombined]];
 const pages=['overview','course','lesson','practice','simulator','psychology','library','glossary','knowledge','journal'];
 const isMac=typeof navigator!=='undefined'&&/Mac|iPhone|iPad/.test(navigator.platform||navigator.userAgent);
 const formatDate=()=>new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'long',weekday:'short'}).format(new Date());
@@ -32,7 +33,7 @@ export default function App(){
  const [completed,setCompleted]=useStored('campus.completed',[]),[notes,setNotes]=useStored('campus.notes',{}),[journal,setJournal]=useStored('campus.journal',[]),[last,setLast]=useStored('campus.last',lessons[0].id);
  const [stats,setStatsRaw]=useStored('campus.stats',emptyStats),[cards,setCards]=useStored('campus.cards',{}),[plan,setPlan]=useStored('campus.plan',emptyPlan),[activity,setActivity]=useStored('campus.activity',{}),[theme,setTheme]=useStored('campus.theme','system');
  const [catalog,setCatalog]=useState([]),[knowledge,setKnowledge]=useState([]),[sourceMap,setSourceMap]=useState({}),[report,setReport]=useState(null);
- const [searchOpen,setSearchOpen]=useState(false),[search,setSearch]=useState(''),[mobile,setMobile]=useState(false),[notice,setNotice]=useState('');
+ const [searchOpen,setSearchOpen]=useState(false),[search,setSearch]=useState(''),[mobile,setMobile]=useState(false),[notice,setNotice]=useState(''),[installOpen,setInstallOpen]=useState(false);
  const main=useRef();
  const fullStats={...emptyStats,...stats};
  const setStats=fn=>setStatsRaw(s=>fn({...emptyStats,...s}));
@@ -60,14 +61,15 @@ export default function App(){
  ].slice(0,16):[];
  const pageTitle=page==='lesson'?'Урок':nav.find(([u])=>u.slice(1)===page)?.[1]||'Обзор';
  return <div className="app-shell">
-  <div className={'mobile-backdrop '+(mobile?'shown':'')} onClick={()=>setMobile(false)}/>
-  <aside className={'sidebar '+(mobile?'open':'')} aria-label="Главное меню">
+  <button className={'mobile-backdrop '+(mobile?'shown':'')} onClick={()=>setMobile(false)} aria-label="Закрыть боковое меню" tabIndex={mobile?0:-1}/>
+  <aside id="main-menu" className={'sidebar '+(mobile?'open':'')} aria-label="Главное меню">
    <div className="sidebar-top"><button className="brand" onClick={()=>go('/')} aria-label="На главную"><span className="brand-symbol"><i/><i/><i/></span><span>место<span>обучения</span></span></button><button className="icon-button sidebar-close" aria-label="Закрыть меню" onClick={()=>setMobile(false)}><X size={20}/></button></div>
    <nav>{nav.map(([url,title],i)=>{const Icon=icons[i];const selected=url==='/'?page==='overview':active===url.slice(1);return <button className={'nav-item '+(selected?'active':'')} aria-current={selected?'page':undefined} onClick={()=>go(url)} key={url}><Icon size={19}/><span>{title}</span>{url==='/course'&&<small>{completed.length}/{lessons.length}</small>}{url==='/practice'&&<small className="new">new</small>}</button>;})}</nav>
+   <button className="sidebar-install" onClick={()=>{setMobile(false);setInstallOpen(true);}}><Smartphone size={19}/><span>На экран «Домой»</span></button>
    <div className="sidebar-bottom"><div className="level-card"><div className="level-top"><span className="level-badge"><Trophy size={15}/></span><div><b>{level.name}</b><small>{xp} XP · уровень {level.index+1}</small></div>{streak>0&&<span className="streak-chip" title="Дней подряд"><Flame size={14}/>{streak}</span>}</div><div className="progress-track"><i style={{width:level.progress*100+'%'}}/></div><small>{level.progress<1?`${level.to-xp} XP до следующего уровня`:'Максимальный уровень'}</small></div><div className="side-progress"><span>Твой маршрут <b>{pct}%</b></span><div className="progress-track"><i style={{width:pct+'%'}}/></div><small>{completed.length} из {lessons.length} уроков завершено</small></div><div className="profile"><div className="avatar">Р</div><div><b>Руслан</b><span>Учусь в своём темпе</span></div><button className="icon-button theme-toggle" onClick={cycleTheme} aria-label="Переключить тему">{(theme==='dark'||(theme==='system'&&typeof matchMedia!=='undefined'&&matchMedia('(prefers-color-scheme: dark)').matches))?<Sun size={18}/>:<Moon size={18}/>}</button></div></div>
   </aside>
-  <div className="workspace"><header className="topbar"><div className="top-left"><button className="icon-button menu-button" aria-label="Открыть меню" aria-expanded={mobile} onClick={()=>setMobile(!mobile)}><Menu size={22}/></button><span className="breadcrumb"><span className="crumb-root">Моё пространство</span> <ChevronRight size={13}/> <b>{pageTitle}</b></span></div><button className="search-trigger" aria-label="Поиск по платформе" onClick={()=>setSearchOpen(true)}><Search size={17}/><span>Найти урок, термин, книгу</span><kbd>{isMac?'⌘':'Ctrl'} K</kbd></button><div className="header-date">{streak>0&&<span className="streak-chip"><Flame size={14}/>{streak} {plural(streak,'день','дня','дней')}</span>}<span className="date-text">{formatDate()}</span><button className="icon-button theme-toggle" onClick={cycleTheme} aria-label="Переключить тему">{(theme==='dark'||(theme==='system'&&typeof matchMedia!=='undefined'&&matchMedia('(prefers-color-scheme: dark)').matches))?<Sun size={18}/>:<Moon size={18}/>}</button></div></header>
-  <main ref={main}><ProgressNotice/>
+  <div className="workspace"><header className="topbar"><div className="top-left"><button className="icon-button menu-button" aria-label="Открыть меню" aria-expanded={mobile} aria-controls="main-menu" onClick={()=>setMobile(!mobile)}><Menu size={22}/></button><span className="breadcrumb"><span className="crumb-root">Моё пространство</span> <ChevronRight size={13}/> <b>{pageTitle}</b></span></div><button className="search-trigger" aria-label="Поиск по платформе" onClick={()=>setSearchOpen(true)}><Search size={17}/><span>Найти урок, термин, книгу</span><kbd>{isMac?'⌘':'Ctrl'} K</kbd></button><div className="header-date">{streak>0&&<span className="streak-chip"><Flame size={14}/>{streak} {plural(streak,'день','дня','дней')}</span>}<span className="date-text">{formatDate()}</span><button className="icon-button theme-toggle" onClick={cycleTheme} aria-label="Переключить тему">{(theme==='dark'||(theme==='system'&&typeof matchMedia!=='undefined'&&matchMedia('(prefers-color-scheme: dark)').matches))?<Sun size={18}/>:<Moon size={18}/>}</button></div></header>
+  <main ref={main}><ProgressNotice/><AppExperience open={installOpen} onClose={()=>setInstallOpen(false)} onOpen={()=>setInstallOpen(true)} showCard={page==='overview'}/>
    <div className="route" key={page+(parts[1]||'')}>
    {page==='overview'&&<Dashboard {...{completed,pct,next,catalog,openLesson,xp,level,streak,activity,cards,stats:fullStats,plan}}/>}
    {page==='course'&&<Course {...{completed,openLesson}} moduleId={parts[1]}/>}
@@ -82,7 +84,7 @@ export default function App(){
    {!pages.includes(page)&&<NotFound text="Такой страницы нет."/>}
    </div>
   </main>
-  <nav className="bottom-nav" aria-label="Быстрая навигация">{mobileNav.map(([url,title,Icon])=>{const selected=url==='/'?page==='overview':active===url.slice(1);return <button key={url} className={selected?'active':''} aria-current={selected?'page':undefined} onClick={()=>go(url)}><Icon size={21}/><span>{title}</span></button>;})}<button className={mobile?'active':''} onClick={()=>setMobile(true)}><Ellipsis size={21}/><span>Ещё</span></button></nav>
+  <nav className="bottom-nav" aria-label="Быстрая навигация">{mobileNav.map(([url,title,Icon])=>{const selected=url==='/'?page==='overview':active===url.slice(1);return <button key={url} className={selected?'active':''} aria-current={selected?'page':undefined} onClick={()=>go(url)}><Icon size={21}/><span>{title}</span></button>;})}<button className={(mobile||!['overview','course','journal','simulator'].includes(active))?'active':''} aria-label="Ещё разделы" aria-expanded={mobile} aria-controls="main-menu" onClick={()=>setMobile(true)}><Ellipsis size={21}/><span>Ещё</span></button></nav>
   </div>
   {notice&&<div role="status" className="toast"><CheckCircle2 size={19}/>{notice}</div>}
   {searchOpen&&<div className="modal-backdrop" onClick={()=>setSearchOpen(false)}><section role="dialog" aria-modal="true" aria-label="Поиск по платформе" className="search-modal" onClick={e=>e.stopPropagation()}><div className="search-modal-input"><Search size={21}/><input autoFocus placeholder="Урок, упражнение, автор, термин…" value={search} onChange={e=>setSearch(e.target.value)} onKeyDown={e=>{if(e.key==='Enter'&&searchResults[0]){searchResults[0].action();setSearchOpen(false);}}}/><button className="icon-button" aria-label="Закрыть поиск" onClick={()=>setSearchOpen(false)}><X size={20}/></button></div><div className="search-results">{!search?<div className="search-hints"><p>Например:</p>{['риск','стоп','тильт','Мёрфи','spread','карточки'].map(t=><button key={t} onClick={()=>setSearch(t)}>{t}</button>)}</div>:searchResults.length?searchResults.map((r,i)=><button key={i} style={{'--i':i}} onClick={()=>{r.action();setSearchOpen(false);}}><div><b>{r.title}</b><small>{r.sub}</small></div><ArrowUpRight size={17}/></button>):<p>Совпадений нет. Попробуй более короткое слово.</p>}</div></section></div>}
