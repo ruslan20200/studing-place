@@ -1,4 +1,9 @@
-const L = (id,title,subtitle,visual,explain,example,task,question,options,answer,feedback,sources) => ({id,title,subtitle,visual,explain,example,task,quiz:{question,options,answer,feedback},sources});
+import {lessonDetails} from './lesson-details.js';
+const L = (id,title,subtitle,visual,explain,example,task,question,options,answer,feedback,sources) => {
+ const details=lessonDetails[id];
+ const quizzes=details?.questions||[{question,options,answer,feedback}];
+ return {id,title,subtitle,visual,explain:[...explain,...(details?.explain||[])],example,task,quiz:quizzes[0],quizzes,worked:details?.worked,mistake:details?.mistake,sources};
+};
 export const modules = [
  {id:'market',number:'01',title:'Как устроен рынок',description:'От первой заявки до понимания графика',color:'#7551d5',lessons:[
  L('participants','Кто стоит между тобой и рынком','Биржа, брокер, терминал и данные','flow',[

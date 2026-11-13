@@ -8,3 +8,10 @@ qa/
 .logs/
 preview.png
 reading-preview.png
+
+.openai/backups/
+.openai/qa/
+.env
+.env.*
+!.env.example
+*.log

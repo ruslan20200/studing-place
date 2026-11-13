@@ -27,4 +27,8 @@ const server=http.createServer(async(req,res)=>{
   if(req.method==='HEAD'||stat.size===0)res.end();else fs.createReadStream(file,{start,end}).pipe(res);
  }catch(e){res.writeHead(e.code==='ENOENT'?404:400);res.end('Файл недоступен');}
 });
-server.listen(5173,'127.0.0.1',()=>console.log('Место обучения: http://127.0.0.1:5173/'));
+const host=process.env.HOST||'127.0.0.1',port=Number(process.env.PORT)||5173;
+server.listen(port,host,async()=>{
+ console.log(`Место обучения: http://127.0.0.1:${port}/`);
+ if(host==='0.0.0.0'){const os=await import('node:os');for(const list of Object.values(os.networkInterfaces()))for(const a of list||[])if(a.family==='IPv4'&&!a.internal)console.log(`С телефона (та же Wi‑Fi сеть): http://${a.address}:${port}/`);}
+});
